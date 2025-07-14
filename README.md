@@ -2,19 +2,17 @@
 
 This project uses a Physics-Informed Neural Network (PINN) to solve the one-dimensional heat equation:
 
-\[
-\frac{\partial u}{\partial t} = \frac{1}{16} \frac{\partial^2 u}{\partial x^2}, \quad \text{for } 0 \leq x \leq 4,\ t > 0
-\]
+∂u/∂t = (1/16) ∂²u/∂x²,   for 0 ≤ x ≤ 4, t > 0
 
 ### Conditions:
-- **Initial condition**:  
-  \[
-  u(x, 0) = \frac{1}{2}x(8 - x)
-  \]
-- **Boundary conditions**:  
-  \[
-  u(0, t) = 0,\quad u(4, t) = 8
-  \]
+- **Initial condition**:
+
+    u(x, 0) = (1/2) x (8 - x)
+
+**Boundary Conditions:**
+
+    u(0, t) = 0
+    u(4, t) = 8
 
 ---
 
